@@ -1,6 +1,6 @@
 package com.homework.first;
 
-public class Seaweed extends Object {
+public class Seaweed extends Subject {
 
     private String taste;
 
@@ -17,23 +17,4 @@ public class Seaweed extends Object {
         this.taste = taste;
     }
 
-    @Override
-    public String getColor() {
-        return super.getColor();
-    }
-
-    @Override
-    public void setColor(String color) {
-        super.setColor(color);
-    }
-
-    @Override
-    public double getCost() {
-        return super.getCost();
-    }
-
-    @Override
-    public void setCost(double cost) {
-        super.setCost(cost);
-    }
 }

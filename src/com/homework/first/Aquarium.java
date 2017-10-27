@@ -20,7 +20,7 @@ public final class Aquarium {
     private Rock rockTwo;
     private Rock rockThree;
     private Inhabitant snail;
-    private Object seaweed;
+    private Subject seaweed;
 
     public double getLength() {
         return length;
@@ -45,5 +45,9 @@ public final class Aquarium {
     public void setHeight(double height) {
         this.height = height;
     }
+
+/*    public static void main(String[] args) {
+        GoldFish fish = new GoldFish("Stew", 134, true, "blue", true);
+    }*/
 
 }

@@ -15,15 +15,15 @@ public abstract class Inhabitant {
     }
 
     public void breatheUnderwater(){
-
+        //inhabitant should breathe underwater to live there
     }
 
     public void eatFood(){
-
+        //inhabitant should eat to live by the way
     }
 
     public void sleep(){
-
+        //inhabitant should also sleep
     }
 
     public String getName() {

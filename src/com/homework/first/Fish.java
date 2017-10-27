@@ -10,45 +10,15 @@ public abstract class Fish extends Inhabitant {
     }
 
     public void swim() {
-
+        //fish can swim
     }
 
     public void lookAtSomething() {
-
+        //fish sometimes looks at something
     }
 
     public void dream() {
-
-    }
-
-    @Override
-    public int getAge() {
-        return super.getAge();
-    }
-
-    @Override
-    public String getName() {
-        return super.getName();
-    }
-
-    @Override
-    public void setName(String name) {
-        super.setName(name);
-    }
-
-    @Override
-    public void setAge(int age) {
-        super.setAge(age);
-    }
-
-    @Override
-    public boolean isAlive() {
-        return super.isAlive();
-    }
-
-    @Override
-    public void setAlive(boolean alive) {
-        super.setAlive(alive);
+        //each fish dreams about something
     }
 
     public boolean isSex() {
@@ -57,15 +27,5 @@ public abstract class Fish extends Inhabitant {
 
     public void setSex(boolean sex) {
         this.sex = sex;
-    }
-
-    @Override
-    public String getColor() {
-        return super.getColor();
-    }
-
-    @Override
-    public void setColor(String color) {
-        super.setColor(color);
     }
 }

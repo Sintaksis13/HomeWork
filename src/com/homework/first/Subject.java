@@ -1,17 +1,17 @@
 package com.homework.first;
 
-public abstract class Object {
+public abstract class Subject {
 
     private String color;
     private double cost;
 
-    public Object(String color, double cost) {
+    public Subject(String color, double cost) {
         this.color = color;
         this.cost = cost;
     }
 
     public void dontMove(){
-
+        //it cant move
     }
 
     public String getColor() {
